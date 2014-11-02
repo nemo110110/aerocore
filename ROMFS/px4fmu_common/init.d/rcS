@@ -1,0 +1,14 @@
+#!nsh
+#
+# PX4FMU startup script.
+
+#
+# Default to auto-start mode.
+#
+set MODE autostart
+if [ $MODE == autostart ]
+then
+	ledemo start
+
+# End of autostart
+fi
